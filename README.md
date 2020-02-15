@@ -3,5 +3,5 @@
 文档:
 [文档](./docs/深度学习入门-v3.pdf)
 
-![Image text](./docs/concurrent/deepLearning.png)
+![Image text](https://github.com/Leezhen2014/python_deep_learning/blob/master/docs/deepLearning.png)
 
