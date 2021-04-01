@@ -46,10 +46,19 @@ class SimpleConvNet:
 
         self.last_layer = SoftmaxWithLoss()
 
+    def getLayers(self):
+        """
+        add by 2021/04/01
+        for feature map Visualization
+        """
+        return self.layers
+
     def predict(self, x):
+        """
+        run all layers forward
+        """
         for layer in self.layers.values():
             x = layer.forward(x)
-
         return x
 
     def loss(self, x, t):
